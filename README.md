@@ -161,34 +161,6 @@ respect to available search spaces and aims. It could perform better and use les
 Enough historical information is needed to allow meta learning be useful. On may need more
 data preparation and feature construction when extracting meta-features.
 
-4. Random Search:
-This is a basic technique for randomly selecting parameter values from known intervals of
-interest. It is simple to put into place and does not require much computational power. No
-knowledge about the area being researched is necessary. This method is one possible way if you
-have many dimensions in which there are no clear insights or well-defined areas of interest.
-Sometimes it might happen that it discovers solutions that are quite good quicker than grid
-search It cannot ensure finding an optimum however, after certain times, it will produce
-reasonable ones regardless.
-5. Grid Search:
-It evaluates all the hyperparameter combinations within a predefined search grid. It is easily
-understood. It is certain that the optimal solution will be found within the space of parameters.
-This approach is rather appropriate for discrete hyperparameters and smaller search spaces. It
-could be expensive when used in high dimensional searches. It could be less conclusive if the
-best solution falls between grid points.
-6. Model-based Reinforcement Learning (MBRL):
-Train a meta-learning algorithm to forecast the suitability of hyperparameters, thereby increasing
-the speed of optimization. Use previous optimization tasks to direct the search for
-hyperparameters in future. Adjusts to changes in search spaces and goals with time. It can
-manage complicated and high-dimensional search spaces. To educate the meta-learner, an initial
-set of data and computational resources need to be allocated. There are particular instances where
-it can perform better than traditional optimization methods.
-7. Meta-Learning:
-Improves future optimization efficiency through awareness of past optimization tasks. Adopts
-search approach instructions derived from former optimization outcomes. Changes with time in
-respect to available search spaces and aims. It could perform better and use less computer energy.
-Enough historical information is needed to allow meta learning be useful. On may need more
-data preparation and feature construction when extracting meta-features.
-
 Conclusion:
 
 The outcome from the playing around with the parameters gave a loss is - 0.8875 for Hyperopt.
