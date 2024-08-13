@@ -1,5 +1,3 @@
-# Optimization_Techniques
-Optimization_Techniques_for Data_Engineering
 Project Name- Enhancing Model Efficiency and Accuracy Through Hyperparameter Optimization
 
 Summary: 
